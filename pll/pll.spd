@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/altera_reset_controller.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="simulation/submodules/altera_reset_synchronizer.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="simulation/submodules/altera_reset_controller.sdc"
+   type="SDC"
+   library="rst_controller" />
+ <file
+   path="simulation/submodules/pll_altpll_2.vho"
+   type="VHDL"
+   library="altpll_2" />
+ <file
+   path="simulation/submodules/pll_altpll_1.vho"
+   type="VHDL"
+   library="altpll_1" />
+ <file
+   path="simulation/submodules/pll_altpll_0.vho"
+   type="VHDL"
+   library="altpll_0" />
+ <file path="simulation/pll.vhd" type="VHDL" />
+ <topLevel name="pll" />
+ <deviceFamily name="cycloneive" />
+</simPackage>

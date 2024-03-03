@@ -1,0 +1,26 @@
+# system info pll on 2024.01.15.14:14:25
+system_info:
+name,value
+DEVICE,EP4CE115F29C7
+DEVICE_FAMILY,Cyclone IV E
+GENERATION_ID,1705324418
+#
+#
+# Files generated for pll on 2024.01.15.14:14:25
+files:
+filepath,kind,attributes,module,is_top
+simulation/pll.vhd,VHDL,,pll,true
+simulation/submodules/pll_altpll_0.vho,VHDL,,pll_altpll_0,false
+simulation/submodules/pll_altpll_1.vho,VHDL,,pll_altpll_1,false
+simulation/submodules/pll_altpll_2.vho,VHDL,,pll_altpll_2,false
+simulation/submodules/altera_reset_controller.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_synchronizer.v,VERILOG,,altera_reset_controller,false
+simulation/submodules/altera_reset_controller.sdc,SDC,,altera_reset_controller,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+pll.altpll_0,pll_altpll_0
+pll.altpll_1,pll_altpll_1
+pll.altpll_2,pll_altpll_2
+pll.rst_controller,altera_reset_controller

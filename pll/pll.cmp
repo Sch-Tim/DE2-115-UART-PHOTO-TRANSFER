@@ -1,0 +1,14 @@
+	component pll is
+		port (
+			clk_clk               : in  std_logic := 'X'; -- clk
+			clk_camera_clk        : out std_logic;        -- clk
+			clk_i2c_clk           : out std_logic;        -- clk
+			clk_i2c_double_clk    : out std_logic;        -- clk
+			clk_sdram_clk         : out std_logic;        -- clk
+			clk_system_clk        : out std_logic;        -- clk
+			clk_system_double_clk : out std_logic;        -- clk
+			clk_vga_clk           : out std_logic;        -- clk
+			reset_reset_n         : in  std_logic := 'X'  -- reset_n
+		);
+	end component pll;
+
